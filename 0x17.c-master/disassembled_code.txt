@@ -1,0 +1,91 @@
+          0 <195>                    0
+          2 CACHE
+          4 <227>                    0
+          6 CACHE
+          8 CACHE
+         10 CACHE
+         12 CACHE
+         14 CACHE
+         16 CACHE
+         18 CACHE
+         20 CACHE
+         22 CACHE
+         24 CACHE
+         26 LOAD_CLASSDEREF          0
+         28 CACHE
+         30 LOAD_NAME                0
+         32 CACHE
+         34 CACHE
+         36 GET_AWAITABLE            1
+         38 CACHE
+         40 POP_TOP
+         42 LOAD_CONST               1
+         44 CACHE
+         46 PUSH_NULL
+         48 LOAD_NAME                2
+         50 CACHE
+         52 PUSH_NULL
+         54 CALL_PY_EXACT_ARGS      90
+         64 LOAD_CONST               4
+         66 CACHE
+         68 PUSH_NULL
+         70 BINARY_SUBSCR
+         80 PUSH_NULL
+         82 LOAD_CONST               5
+         84 CACHE
+         86 CALL_PY_EXACT_ARGS     101
+         96 PUSH_NULL
+         98 LOAD_CONST               6
+        100 CACHE
+        102 BINARY_OP_INPLACE_ADD_UNICODE     0 (+)
+        106 CACHE
+        108 CALL_PY_EXACT_ARGS     101
+        118 BUILD_SLICE              2
+        120 CACHE
+        122 LOAD_CONST               8
+        124 CACHE
+        126 BINARY_OP_MULTIPLY_FLOAT     0 (+)
+        130 CACHE
+        132 BINARY_OP_ADAPTIVE       0 (+)
+        136 STORE_NAME               2
+        138 CACHE
+        140 POP_TOP
+        142 LOAD_NAME                2
+        144 CACHE
+        146 PUSH_NULL
+        148 POP_JUMP_FORWARD_IF_FALSE   134 (to 418)
+        150 CACHE
+        152 BINARY_OP_ADAPTIVE       0 (+)
+        156 CACHE
+        158 POP_TOP
+        160 POP_TOP
+        162 UNARY_POSITIVE
+        164 LOAD_NAME                3
+        166 CACHE
+        168 UNARY_NEGATIVE
+        170 GET_AWAITABLE            1
+        172 CACHE
+        174 LOAD_CONST               8
+        176 CACHE
+        178 LOAD_ATTR_MODULE        13
+        188 POP_JUMP_FORWARD_IF_FALSE   100 (to 390)
+        190 LOAD_METHOD_MODULE      32
+        212 POP_TOP
+        214 CACHE
+        216 <233>                    3
+        218 CACHE
+        220 CACHE
+        222 BINARY_OP_SUBTRACT_FLOAT     0 (+)
+        226 <233>                    7
+        228 CACHE
+        230 CACHE
+        232 NOP
+        234 CACHE
+        236 PRECALL_NO_KW_LEN      233
+        240 CACHE
+        242 STORE_NAME               2
+        244 PRECALL_NO_KW_LIST_APPEND    75
+        248 RETURN_GENERATOR
+        250 <233>                  255
+        252 <255>                  255
+        254 <255>                   41
